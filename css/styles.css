@@ -8,9 +8,18 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.page-header {
+}
+
+.header-nav {
+}
+
 .logo-web {
   font-family: "Raleway", sans-serif;
-  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -29,8 +38,13 @@ ul {
   color: #2e2f42;
 }
 
-.link {
-  text-decoration: none;
+.nav-list {
+}
+
+.nav-item {
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -38,8 +52,8 @@ ul {
   color: #2e2f42;
 }
 
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -47,8 +61,13 @@ ul {
   font-style: normal;
 }
 
-.contact {
-  text-decoration: none;
+.contacts-list {
+}
+
+.contacts-item {
+}
+
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -56,9 +75,13 @@ ul {
   color: #434455;
 }
 
-.contact:hover,
-.contact:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
+}
+
+.main-page {
+  background-color: #2e2f42;
 }
 
 .main-page-title {
@@ -72,7 +95,6 @@ ul {
 }
 
 .order-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -87,15 +109,20 @@ ul {
   background-color: #404bbf;
 }
 
-.main-page {
-  background-color: #2e2f42;
-}
-
-.skils {
+.benefits {
   background-color: #fff;
 }
 
-.skils-title {
+.benefits-title {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -103,7 +130,7 @@ ul {
   color: #2e2f42;
 }
 
-.skils-descr {
+.benefits-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -123,6 +150,9 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+}
+
+.team-list {
 }
 
 .team-item {
@@ -149,7 +179,7 @@ ul {
   background-color: #fff;
 }
 
-.portfolio-main-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -159,7 +189,13 @@ ul {
   text-transform: capitalize;
 }
 
-.portfolio-title {
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -179,16 +215,7 @@ ul {
   background: #2e2f42;
 }
 
-.text-footer {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
 .logo-footer-web {
-  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -199,12 +226,19 @@ ul {
 }
 
 .lofo-footer-studio {
-  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
